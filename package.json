@@ -1,0 +1,29 @@
+{
+  "name": "snake-js",
+  "version": "1.0.0",
+  "description": "Simple Snake Game in JavaScript",
+  "main": "index.js",
+  "scripts": {
+	"start": "node local-server/index.js"
+  },
+  "author": "@vitorsalgado",
+  "license": "MIT",
+  "repository": {
+	"type": "git",
+	"url": "git+https://github.com/vitorsalgado/snake-game.git"
+  },
+  "keywords": [
+	"javascript",
+	"js",
+	"game",
+	"snake"
+  ],
+  "bugs": {
+	"url": "https://github.com/vitorsalgado/snake-game/issues"
+  },
+  "homepage": "https://github.com/vitorsalgado/snake-game#readme",
+  "dependencies": {
+	"fastify": "^3.19.0",
+	"fastify-static": "^4.2.2"
+  }
+}

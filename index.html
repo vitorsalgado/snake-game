@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='pt-BR'>
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='robots' content='index,follow'>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+<div id="box-info" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Use <b>Arrow keys</b> to play.</p>
+        <p>Press ENTER to start.</p>
+    </div>
+</div>
+<div class="container">
+    <div id="score-container">
+        <span id="score">0</span>
+    </div>
+    <canvas id="root" class="game-board"></canvas>
+</div>
+</body>
+
+<script src="game.js"></script>
+</html>
